@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/ssmolker/portfolio1/issues"
   },
-  "homepage": "https://github.com/ssmolker/portfolio1#readme",
+  "homepage": "https://ssmolker.github.io/portfolio1",
   "dependencies": {
     "chalk": "^4.1.0",
     "prompt": "^1.1.0"

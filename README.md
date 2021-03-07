@@ -7,3 +7,5 @@ Built with chalk and prompt packages.
 # features 
 - allows user to pick color of text in console
 - validates whether string was entered correctly
+
+https://ssmolker.github.io/portfolio1/
